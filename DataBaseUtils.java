@@ -1,3 +1,4 @@
+
 package exemplo_jdbc;
 
 import java.sql.Connection;
@@ -13,5 +14,6 @@ public class DataBaseUtils {
 	{
 		Class.forName(DRIVER);
 		return DriverManager.getConnection(URL+nomeBanco, usuario, senha);
-	}
-}
+        }
+
+
